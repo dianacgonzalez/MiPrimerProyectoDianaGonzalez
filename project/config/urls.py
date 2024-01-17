@@ -20,5 +20,5 @@ from .views import saludo
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('saludo/',saludo)
+    path('saludo/',saludo),
 ]
