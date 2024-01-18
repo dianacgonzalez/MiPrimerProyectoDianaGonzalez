@@ -1,0 +1,19 @@
+{% extends 'entrega3/base.html' %}
+
+{% block contenido %}
+
+    <h1> Entrega 3 </h1>
+
+    <h1> Crear y ver Profesores </h1>
+    <button><a href="{% url 'profesor_create'%}">Crear Profesores</a></button>
+    <button><a href="{% url 'profesor_list'%}">Ver Profesores</a></button>
+
+    <h1> Crear y ver Estudiantes </h1>
+    <button><a href="{% url 'estudiante_create'%}">Crear Estudiante</a></button>
+    <button><a href="{% url 'estudiante_list'%}">Ver Estudiante</a></button>
+
+    <h1> Crear y ver Curso </h1>
+    <button><a href="{% url 'curso_create'%}">Crear Cursos</a></button>
+    <button><a href="{% url 'curso_list'%}">Ver Cursos</a></button>
+
+{% endblock contenido %}

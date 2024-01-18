@@ -1,0 +1,13 @@
+{% extends 'entrega3/base.html' %}
+
+{% block contenido %}
+    {% for curso in curso %}
+        <ul>
+            <li>
+                {{ curso.nombre }}
+                {{ curso.comision }}
+                {{ curso.profesor }}
+            </li>
+        </ul>
+    {% endfor %}
+{% endblock contenido %}
